@@ -20,10 +20,11 @@ public class Fruits {
   }
 
   public static List<Fruits> getFruits(){
-    return Arrays.asList(new Fruits("apple", 1, 1),
-      new Fruits("mango", 1, 1),
-      new Fruits("banana", 1, 1),
-      new Fruits("watermelon", 1, 1));
+    return Arrays.asList(new Fruits("apple", 10, 1),
+      new Fruits("applemango", 15, 10),
+      new Fruits("mango", 15, 10),
+      new Fruits("banana", 6, 1),
+      new Fruits("watermelon", 3, 1));
   }
 
   public String getName(){
