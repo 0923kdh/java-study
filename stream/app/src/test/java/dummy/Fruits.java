@@ -6,13 +6,13 @@ import java.util.List;
 public class Fruits {
 
   private String name;
-  private Integer price;
-  private Integer stock;
+  private int price;
+  private int stock;
 
   public Fruits(
     String name,
-    Integer price,
-    Integer stock
+    int price,
+    int stock
   ) {
     this.name = name;
     this.price = price;
@@ -31,11 +31,11 @@ public class Fruits {
     return this.name;
   }
 
-  public Integer getPrice(){
+  public int getPrice(){
     return this.price;
   }
 
-  public Integer getStock(){
+  public int getStock(){
     return this.stock;
   }
 }
