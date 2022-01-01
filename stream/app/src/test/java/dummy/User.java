@@ -5,15 +5,25 @@ public class User {
   private int age;
   private String name;
 
-  public User(int age, String name){
+  public User(
+    int age,
+    String name
+  ) {
     this.age = age;
     this.name = name;
   }
 
   public boolean isOver() {
-    return age >= 19;
+    return this.age >= 19;
   }
 
+  public int getAge() {
+    return this.age;
+  }
+
+  public String getName() {
+    return this.name;
+  }
 
   @Override
   public String toString() {
