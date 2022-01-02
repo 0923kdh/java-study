@@ -1,5 +1,8 @@
 package dummy;
 
+import java.util.Arrays;
+import java.util.List;
+
 public class User {
 
   private int age;
@@ -11,6 +14,16 @@ public class User {
   ) {
     this.age = age;
     this.name = name;
+  }
+
+  public static List<User> getUsers(){
+    return Arrays.asList(
+      new User(20, "dahee"),
+      new User(20, "dam"),
+      new User(40, "min"),
+      new User(30, "minhee"),
+      new User(10, "jung")
+    );
   }
 
   public boolean isOver() {
