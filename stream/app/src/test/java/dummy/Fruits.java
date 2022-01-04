@@ -2,6 +2,7 @@ package dummy;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 
 public class Fruits {
 
@@ -39,5 +40,28 @@ public class Fruits {
 
   public int getStock(){
     return this.stock;
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    Fruits fruits = (Fruits) o;
+    return price == fruits.price && stock == fruits.stock && Objects.equals(
+      name, fruits.name
+    );
+  }
+
+  @Override
+  public String toString() {
+    return "Fruits{" +
+      "name='" + name + '\'' +
+      ", price=" + price +
+      ", stock=" + stock +
+      '}';
   }
 }
