@@ -9,7 +9,7 @@ import java.util.function.LongSupplier;
 import java.util.function.Supplier;
 import org.junit.Test;
 
-//Supplier : 인자를 받지 않고 Type T 객체를 리턴하는 함수형 인터페이스
+// Supplier : 인자를 받지 않고 Type T 객체를 리턴하는 함수형 인터페이스
 public class SupplierTest {
 
   @Test

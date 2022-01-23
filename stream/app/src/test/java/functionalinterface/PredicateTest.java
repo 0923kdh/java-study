@@ -5,8 +5,7 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 import org.junit.Test;
 
-// Predicate란?
-// Type T 인자를 받고 boolean을 리턴하는 함수형 인터페이스.
+// Predicate : Type T 인자를 받고 boolean을 리턴하는 함수형 인터페이스
 public class PredicateTest {
 
   @Test

@@ -9,7 +9,7 @@ import java.util.function.Consumer;
 import java.util.function.IntConsumer;
 import org.junit.Test;
 
-// Consumer : 매개 값을 받아 소비만 하고 리턴 값을 가지지 않는다.
+// Consumer : 매개 값을 받아 소비만 하고 리턴 값을 가지지 않는 함수형 인터페이스
 // 하나의 제네릭 매개변수를 받아 사용하는 Consumer<T>
 // 두 개의 제네릭 매개변수를 받아 사용하는 BiConsumer<T, U>
 // Number 타입 : IntConsumer, DoubleConsumer, LongConsumer
