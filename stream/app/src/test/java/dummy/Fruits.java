@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
 
-public class Fruits {
+public class Fruits implements Comparable<Fruits>{
 
   private String name;
   private int price;
@@ -64,4 +64,10 @@ public class Fruits {
       ", stock=" + stock +
       '}';
   }
+
+  @Override
+  public int compareTo(Fruits o) {
+    return Integer.compare(this.getPrice(), o.getPrice());
+  }
+
 }
