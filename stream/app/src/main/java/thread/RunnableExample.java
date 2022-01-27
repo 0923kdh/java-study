@@ -1,5 +1,7 @@
 package thread;
 
+//어떤 객체도 리턴하지 않음
+//Exception을 발생시킬 수 없음
 public class RunnableExample implements Runnable {
 
   @Override
